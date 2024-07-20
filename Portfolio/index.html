@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/khush.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/img.png" alt="Khush Diyora" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Khush Diyora">Khush Diyora</h1>
+
+          <p class="title">Computer Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:cekhushdiyora@gmail.com" class="contact-link">cekhushdiyora@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919316890367" class="contact-link">+91 (931) 689-0367</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 31, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Surat, Gujarat, Bharat</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/khushdiyora" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100091433931474" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/khushh_d" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/khushh.d/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/khushdiyora" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Creative Director and UI/UX Designer from Surat, Gujarat, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development & Web Scraping</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/testimonials-1.png" alt="Abu al-Fadl" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Abu al-Fadl<br>Ceo &amp; Founder <br> Arabica Café Company</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Collaborating with Khush Diyora on the design of our cafe shop was an incredible experience. 
+                His vision and expertise brought our ideas to life in a way we couldn't have imagined. 
+                The result is a space that our customers love and that truly represents our brand.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/testimonials-2.png" alt="Abd al-Uzza" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Abd al-Uzza<br>Ceo &amp; Founder <br> LiebePa-K Transport</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Khush Diyora on our LiebePa-K Transport courier management system was phenomenal.
+                    His expertise and creativity brought our vision to life, surpassing expectations. 
+                    The system reflects our commitment to efficient service, appreciated by both our team and clients.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/testimonials-3.png" alt="સ્વામી શ્રી 1008 મહામંડલેશ્વર સ્વામી શ્રી જગદીશાનંદ સાગરજી મહારાજ, વેદાન્તાચાર્ય" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>સ્વામી શ્રી 1008 મહામંડલેશ્વર સ્વામી શ્રી જગદીશાનંદ સાગરજી મહારાજ, વેદાન્તાચાર્ય<br>વેદાન્તાચાર્ય <br> પ્રમુખ - સચ્ચિદાનંદ માધવાનંદ</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    અમારા ડિજિટલ ભગવદ ગીતા પ્રોજેક્ટ પર ખુશ દિયોરા સાથે કામ કરવું અસાધારણ હતું. 
+                    તેમની કુશળતા અને સર્જનાત્મકતા અપેક્ષાઓ વટાવીને અમારી દ્રષ્ટિને જીવનમાં લાવી. 
+                    પ્લેટફોર્મ અમારી ટીમ અને વપરાશકર્તાઓ બંને દ્વારા મૂલ્યવાન આધ્યાત્મિક જ્ઞાન પ્રત્યેની અમારી પ્રતિબદ્ધતાને પ્રતિબિંબિત કરે છે.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/testimonials-4.png" alt="સ્વામી શ્રી સુરેશ્વરાનંદજી મહારાજ શાસ્ત્રી, વેદાન્તાચાર્ય" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>સ્વામી શ્રી સુરેશ્વરાનંદજી મહારાજ શાસ્ત્રી, વેદાન્તાચાર્ય<br>વેદાન્તાચાર્ય <br>ઉપપ્રમુખ - સચ્ચિદાનંદ માધવાનંદ</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    અમારા નિર્વાણ શતકામ પ્રોજેક્ટ પર ખુશ દિયોરા સાથે કામ કરવું અસાધારણ હતું. 
+                    તેમની કુશળતા અને સર્જનાત્મકતા અપેક્ષાઓ વટાવીને અમારી દ્રષ્ટિને જીવનમાં લાવી. 
+                    પ્લેટફોર્મ આધ્યાત્મિક જ્ઞાન પ્રત્યેની અમારી પ્રતિબદ્ધતાને પ્રતિબિંબિત કરે છે. સાથે મળીને, 
+                    અમે આંતરિક શાંતિ શોધનારાઓ માટે પરિવર્તનશીલ અનુભવ બનાવ્યો છે.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="#" alt="abc" width="80" data-modal-img>
+                </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14">18 May, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="http://localhost/coffee-shop/">
+                <img src="./assets/images/logo.png" alt="client logo" width="100" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="http://localhost/Business-trucking-website-main/">
+                <img src="./assets/images/logo - 1.png" alt="client logo" width="100" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="http://localhost/fruitbazar/">
+                <img src="./assets/images/logo - 3.png" alt="client logo" width="100" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="http://localhost/bhagavat gita/">
+                <img src="./assets/images/logo - 4.png" alt="client logo" width="100" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="http://localhost/nirvana/">
+                <img src="./assets/images/logo - 5.ico" alt="client logo" width="100" height="150">
+              </a>
+            </li> 
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diploma of  Computer science &amp; engineering</h4>
+
+              <span>2022 - 2025</span>
+
+              <p class="timeline-text">
+                Gujarat Technological University, Ahmedabad, Gujarat <br><br>
+                Highly analytical and technology-driven Computer Engineer who combines computer science with electrical 
+                  engineering to build new computers and computer systems. 
+                  Strong in-depth knowledge of design, analytics, algorithms, analysis tools, and object-oriented modeling.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary Education of 6 to 10</h4>
+
+              <span>2017 - 2022</span>
+
+              <p class="timeline-text">
+                Gajera Vidhya Bhavan, Surat, Gujarat
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Primary Education of 1 to 5</h4>
+
+              <span>2012 - 2017</span>
+
+              <p class="timeline-text">
+                Gajera Vidhya Bhavan, Surat, Gujarat
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern - DioneApps Private Limited</h4>
+
+              <span>Jun 2024 - Present</span>
+              <span>Surat, Gujarat, Bharat · On-site</span>
+
+              <p class="timeline-text">
+                Lead in the design, development, and implementation of the Front-end, layout, and production communication materials. <br><br>
+                Oversee the efficient use of production project budgets ranging from $2,000 - $25,000
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern - MacyMind</h4>
+
+              <span>Jun 2024 - Present</span>
+              <span>Surat, Gujarat, Bharat · On-site</span>
+
+              <p class="timeline-text">
+                Developed numerous marketing programs (logos, brochures,infoFront-ends, presentations, and advertisements). <br><br>
+                Recommended and consulted with clients on the most appropriate Front-end design
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ex-Intern - Digital Sweep India Private Limited</h4>
+
+              <span>Aug 2023 - May 2024</span>
+              <span>Surat, Gujarat, Bharat · On-site</span>
+
+              <p class="timeline-text">
+                I opted for an internship focused on "Web Development" to attain these objectives. <br><br>
+                Responsive Web Design.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DJANGO</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Card design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Scraping</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Card design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Scraping</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://localhost/fruitbazar">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fruitbazar E-commerce</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://localhost/Business-trucking-website-main/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LiebePa-k Transportation</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="card design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-4.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Card</h3>
+
+                <p class="project-category">Card Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="http://localhost/coffee-shop">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-3.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arabica Cafe Company</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="http://localhost/Khush project\BBDMS\bbdms">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VitalBlood Network</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web scraping">
+              <a href="http://localhost/Scraping/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-7.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web scraping</h3>
+
+                <p class="project-category">Web scraping</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://localhost/nirvana">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-9.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nirvana Shatkam</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="http://localhost/bhagavat gita">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio-6.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bhagavad Gita</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="card design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Card</h3>
+
+                <p class="project-category">Card Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="http://localhost/fruitbazar/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">December 12, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop Fruitbazar in 2023</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for Fruit-Bazar. 
+                    They are thrilled with the outcome of their new website, 
+                    which showcases their products and services beautifully. 
+                    The project involved creating a user-friendly interface that highlights 
+                    Fruit-Bazar commitment to quality and innovation. I'm proud of the collaboration 
+                    and the successful launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://localhost/Business-trucking-website-main/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/2.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 24, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop LiebePa-K Transport in 2023</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for LieBePa-k Transport. 
+                    They are thrilled with the outcome of their new website, which 
+                    showcases their products and services beautifully. The project 
+                    involved creating a user-friendly interface that highlights LieBePa-k 
+                    Transport commitment to quality and innovation. I'm proud of the collaboration 
+                    and the successful launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://localhost/coffee-shop/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 18, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop Arabica Cafe in 2023</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for Arabica Company. 
+                    They are thrilled with the outcome of their new website, 
+                    which showcases their products and services beautifully. 
+                    The project involved creating a user-friendly interface that 
+                    highlights Arabica's commitment to quality and innovation. 
+                    I'm proud of the collaboration and the successful launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://localhost/coffee-shop/index.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/4.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 18, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop Arabica Coffee in 2023</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for Arabica Company. 
+                    They are thrilled with the outcome of their new website, 
+                    which showcases their products and services beautifully. 
+                    The project involved creating a user-friendly interface that 
+                    highlights Arabica's commitment to quality and innovation. 
+                    I'm proud of the collaboration and the successful launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://localhost/Khush project/BBDMS/bbdms/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/5.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 18, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop VitalBlood Network in 2024</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for VitalBlood Network. 
+                    They are thrilled with the outcome of their new website, 
+                    which showcases their products and services beautifully. 
+                    The project involved creating a user-friendly interface 
+                    that highlights VitalBlood Network commitment to quality and 
+                    innovation. I'm proud of the collaboration and the successful launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://localhost/nirvana/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/6.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 01, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design & Develop Nirvana Shatkam in 2024</h3>
+
+                  <p class="blog-text">
+                    I recently completed web development for Shree Madhavanand Ashram. 
+                    They are thrilled with the outcome of their new website, which showcases 
+                    their products and services beautifully. The project involved creating a 
+                    user-friendly interface that highlights Shree Madhavanand Ashram commitment 
+                    to quality and innovation. I'm proud of the collaboration and the successful 
+                    launch of their new online presence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119572.64896655403!2d72.75796132227638!3d21.17024018592211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395814b7542d3e2d%3A0xc8054f2347ab1b82!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1626683982907!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
